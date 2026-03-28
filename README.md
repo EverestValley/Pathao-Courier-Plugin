@@ -2,6 +2,12 @@
 
 A production-ready, open-source Next.js plugin for seamlessly integrating the Pathao Courier Merchant API.
 
+## Previews
+
+![Order Dashboard - Ship with Pathao](./public/2.png)
+
+![Ship with Pathao Modal](./public/1.png)
+
 ## Features
 -   **Full API Coverage**: Includes Bulk Orders, Price Calculation, Store Management.
 -   **Authentication**: Secure OAuth 2.0 token management with caching and expiration handling.
