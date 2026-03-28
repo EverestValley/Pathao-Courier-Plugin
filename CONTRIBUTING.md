@@ -22,11 +22,12 @@ This section guides you through submitting an enhancement suggestion, including 
 - Clearly describe the use case and how it interacts with the current API limitations.
 
 ### Pull Requests
-1. Fork the repo and create your branch from `main`.
-2. Ensure you have installed dependencies and run `npm run build` locally to verify there are no TypeScript errors.
-3. If you've added code that should be tested, add tests.
-4. Update the `README.md` or `INTEGRATION_GUIDE.md` if your changes alter the package's public API.
-5. Issue that pull request using the provided Pull Request template!
+1. **Fork the repository** to your own GitHub account.
+2. **Create a new branch** from `main` (e.g., `git checkout -b feature/awesome-new-feature` or `bugfix/fix-token-refresh`).
+3. Make your changes and commit them with clear, descriptive messages. Ensure you have installed dependencies and run `npm run build` locally to verify there are no TypeScript errors.
+4. If you've added code that should be tested, please add tests. Update the `README.md` or `INTEGRATION_GUIDE.md` if your changes alter the package's public API.
+5. **Push your branch** to your fork on GitHub.
+6. **Open a Pull Request** against our official `main` branch using the provided PR template.
 
 ## Styleguides
 - **TypeScript**: We enforce strict type checking. Ensure you're not using `any` indiscriminately.
