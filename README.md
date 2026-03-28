@@ -55,6 +55,11 @@ export async function GET(req: Request) {
 
 Please see `INTEGRATION_GUIDE.md` for full implementation examples.
 
+## Community & Support
+If you have any questions, run into issues, or just want to connect, feel free to reach out!
+- 💬 **Discord Community:** [Join the server](https://discord.com/invite/5Fh6UZRp)
+- 🤝 **Connect with the Author:** [Yogesh Singh on LinkedIn](https://www.linkedin.com/in/yogesh-singh-479a38262)
+
 ## Legal Disclaimer & Official Credits
 This is an unofficial, community-driven project and is **not** officially affiliated with, maintained by, or endorsed by **[Pathao Ltd](https://pathao.com/)**. 
 All trademarks, logos, and brand names are the property of their respective owners. The official Pathao Developer API documentation can be found [here](https://parcel.pathao.com/courier/developer-api). Please use this package responsibly and in full compliance with Pathao's official Terms of Service.
