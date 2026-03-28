@@ -1,0 +1,41 @@
+{
+  "name": "pathao-nextjs",
+  "version": "1.0.0",
+  "description": "A production-ready Next.js plugin for Pathao Courier Merchant API integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/pathao-nextjs.git"
+  },
+  "keywords": [
+    "pathao",
+    "nextjs",
+    "courier",
+    "api",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.300.0",
+    "mongodb": "^6.0.0",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "next": "^16.2.1",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+name: Manual Build & Verify
+
+# This workflow ONLY runs when you manually click "Run workflow" in GitHub Actions.
+# It will NEVER trigger automatically on pushes or pull requests, keeping your account 100% safe from automation limits.
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+        cache: 'npm'
+        
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Run Build (TypeScript Verification)
+      run: npm run build

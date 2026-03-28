@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.DS_Store
+/api-integration.md
+/pathao-integrate-webhooks.md
